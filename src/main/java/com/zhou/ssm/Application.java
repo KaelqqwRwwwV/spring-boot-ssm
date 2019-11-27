@@ -5,13 +5,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * XXX 类描述信息
- *
+ * 启动入口
+ * @project 基于SpringBoot SSM
  * @author zhou
  * @version v1.0.0
- * @project
- * @date 2019-11-26 17:43
- * @copyright Copyright (c) 2019, www.javakc.com All Rights Reserved.
+ * @date 2019-11-26
  */
 @SpringBootApplication
 @MapperScan("com.zhou.ssm.*.dao")
